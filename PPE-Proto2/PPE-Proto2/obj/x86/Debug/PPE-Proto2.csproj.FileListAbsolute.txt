@@ -1,0 +1,12 @@
+C:\Users\Pierre\Documents\Visual Studio 2010\Projects\PPE-Proto2\PPE-Proto2\bin\Debug\PPE-Proto2.exe
+C:\Users\Pierre\Documents\Visual Studio 2010\Projects\PPE-Proto2\PPE-Proto2\bin\Debug\PPE-Proto2.pdb
+C:\Users\Pierre\Documents\Visual Studio 2010\Projects\PPE-Proto2\PPE-Proto2\obj\x86\Debug\PPE-Proto2.csprojResolveAssemblyReference.cache
+C:\Users\Pierre\Documents\Visual Studio 2010\Projects\PPE-Proto2\PPE-Proto2\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Pierre\Documents\Visual Studio 2010\Projects\PPE-Proto2\PPE-Proto2\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Pierre\Documents\Visual Studio 2010\Projects\PPE-Proto2\PPE-Proto2\obj\x86\Debug\PPE-Proto2.csproj.GenerateResource.Cache
+C:\Users\Pierre\Documents\Visual Studio 2010\Projects\PPE-Proto2\PPE-Proto2\obj\x86\Debug\PPE-Proto2.exe
+C:\Users\Pierre\Documents\Visual Studio 2010\Projects\PPE-Proto2\PPE-Proto2\obj\x86\Debug\PPE-Proto2.pdb
+C:\Users\Pierre\documents\visual studio 2010\Projects\PPE-Proto2\PPE-Proto2\bin\Debug\PPE-Proto2.exe.manifest
+C:\Users\Pierre\documents\visual studio 2010\Projects\PPE-Proto2\PPE-Proto2\bin\Debug\PPE-Proto2.application
+C:\Users\Pierre\documents\visual studio 2010\Projects\PPE-Proto2\PPE-Proto2\obj\x86\Debug\PPE-Proto2.exe.manifest
+C:\Users\Pierre\documents\visual studio 2010\Projects\PPE-Proto2\PPE-Proto2\obj\x86\Debug\PPE-Proto2.application

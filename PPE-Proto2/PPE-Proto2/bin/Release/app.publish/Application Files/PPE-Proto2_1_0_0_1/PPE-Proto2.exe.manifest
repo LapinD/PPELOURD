@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PPE-Proto2.exe" version="1.0.0.1" publicKeyToken="0f6fa19b01e81175" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PPE-Proto2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="PPE-Proto2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="6.8.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PPE-Proto2.exe" size="22016">
+      <assemblyIdentity name="PPE-Proto2" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>GayVscEkBw5IWsH4mQKUPS6V9RE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN= \Pierre" issuerKeyHash="29df32efc03e2c016f028064a24b0a1d9fd7047a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eg+INUYK9gNCG3XTuOQApuA7cd4=</DigestValue></Reference></SignedInfo><SignatureValue>I4tNV6GJmb+m0OSqM3/AR1CnG0QVYFd3qDCajDrwi5/0n0Y81CiJjaal5ECQ1W5nhWKKr0ONRHm4Tpn0iVFb7ZnWndsHHTNfiRe5rbjET2vJjm6jQBvcahVAZ9SJC3LUW8mVNG0kgDY/wuL07Q7Fu8akJxGu0dvmOs33a+9wGBo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6L5LhcJ0z5in6nI9RE1qnl2AUlTTJpoxxb35ZKv65EI3oRTIZK87+G+NS7UV81mwIpHXAygVSDjPkjfp7Xc1kc765hYsthpRhwnZaUS5wMZMYvKRd6It+SuiImTbzX1IR7cpJPKWjnsILE4lWmm0RXhE9nXxdXPbj+n5Heh9o0c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="de713be0a600e4b8d3751b4203f60a4635880f7a" Description="" Url=""><as:assemblyIdentity name="PPE-Proto2.exe" version="1.0.0.1" publicKeyToken="0f6fa19b01e81175" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN= \Pierre</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ffuQ9+uxQqu+81wRmINNutC6i9k=</DigestValue></Reference></SignedInfo><SignatureValue>KEjg5D2+lq6ZcPyN9NC/lMQLkwDx8aGdgJZglrREO2pexq6NZI9gPmyKIkIMV/N3xFlMP/GMPbNKWiyfii6fykcwa/v0kK2lMErJ03hxp2ajCIiZAcIxeZGBfeb5gNYaYKC9zLHJdB0LUJtvqt2WNbeq3fdeNZyh3HP9Xt/wUqg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6L5LhcJ0z5in6nI9RE1qnl2AUlTTJpoxxb35ZKv65EI3oRTIZK87+G+NS7UV81mwIpHXAygVSDjPkjfp7Xc1kc765hYsthpRhwnZaUS5wMZMYvKRd6It+SuiImTbzX1IR7cpJPKWjnsILE4lWmm0RXhE9nXxdXPbj+n5Heh9o0c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQLyYcD2Q06bBInz3S7G8fhTANBgkqhkiG9w0BAQUFADAbMRkwFwYDVQQDHhAAoABcAFAAaQBlAHIAcgBlMB4XDTE0MDUwNTA5MjI1MVoXDTE1MDUwNTE1MjI1MVowGzEZMBcGA1UEAx4QAKAAXABQAGkAZQByAHIAZTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA6L5LhcJ0z5in6nI9RE1qnl2AUlTTJpoxxb35ZKv65EI3oRTIZK87+G+NS7UV81mwIpHXAygVSDjPkjfp7Xc1kc765hYsthpRhwnZaUS5wMZMYvKRd6It+SuiImTbzX1IR7cpJPKWjnsILE4lWmm0RXhE9nXxdXPbj+n5Heh9o0cCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBxHa3CxBqwNhlNTssmskPnc5SU4lUfWD0EOIn3oyFF2WpQhzPGl6Xmf+iJzhcHEm02yIdCjfkVK716czq7Nu1b0cWS62iy4GIT3iiKMXR4mK4hvGD9vRMaPb3qp8JMX1DQ6NIATD3g5edPuOjZolynq3pmADZZvNaqLjvX9C2DzA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
